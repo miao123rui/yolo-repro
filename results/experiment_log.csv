@@ -1,0 +1,7 @@
+﻿run_id,model,dataset_split,recorded_run,seed,precision,recall,mAP50,mAP50-95,evaluation_protocol
+yolov8n_seed42,yolov8n,VisDrone_subset_seq_v2,yolov8n_seq,42,0.34135238795149936,0.2861095396620917,0.246134578608121,0.1390482109629981,"same validation split, imgsz=640, batch=4, workers=0"
+yolov8n_seed0,yolov8n,VisDrone_subset_seq_v2,yolov8n_seq_seed0,0,0.3404608481052006,0.27766291470750326,0.2435553069619766,0.13848214808568182,"same validation split, imgsz=640, batch=4, workers=0"
+yolov8n_seed1,yolov8n,VisDrone_subset_seq_v2,yolov8n_seq_seed1,1,0.35033108485713615,0.26461472378685946,0.23185813742835099,0.13151494901185873,"same validation split, imgsz=640, batch=4, workers=0"
+yolov8s_seed42,yolov8s,VisDrone_subset_seq_v2,yolov8s_seq,42,0.38796032188521373,0.3420017965852893,0.29494665632165434,0.167050950151161,"same validation split, imgsz=640, batch=4, workers=0"
+yolov8s_seed0,yolov8s,VisDrone_subset_seq_v2,yolov8s_seq_seed0,0,0.4012274485593622,0.3219180575650111,0.28882677233731996,0.16617522744918262,"same validation split, imgsz=640, batch=4, workers=0"
+yolov8s_seed1,yolov8s,VisDrone_subset_seq_v2,yolov8s_seq_seed1,1,0.39332169250198074,0.3223535632914459,0.29060686426172366,0.1678610320568737,"same validation split, imgsz=640, batch=4, workers=0"

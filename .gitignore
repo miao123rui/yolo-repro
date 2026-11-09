@@ -1,0 +1,24 @@
+# IDE and caches
+.idea/
+.vscode/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Datasets and generated data
+data/raw/
+data/VisDrone*/
+datasets/
+
+# Training outputs and model weights
+runs/
+checkpoints/
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# Logs and temporary files
+*.log
+!results/*.log
+tmp/

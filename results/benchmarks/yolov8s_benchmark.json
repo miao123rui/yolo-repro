@@ -1,0 +1,43 @@
+{
+  "model": "yolov8s",
+  "checkpoint": "runs/visdrone_seq/yolov8s_seq/weights/best.pt",
+  "dataset_split": "data/VisDrone_subset_seq_v2/VisDrone_subset_seq_v2.yaml",
+  "images": 50,
+  "imgsz": 640,
+  "batch": 1,
+  "confidence": 0.25,
+  "iou": 0.5,
+  "warmup_predictions": 15,
+  "trials": 10,
+  "measurement_boundary": "end-to-end Ultralytics predict: image decode, preprocessing, inference, NMS/postprocessing",
+  "latency_ms_per_image": {
+    "mean": 27.563369800000373,
+    "sample_std": 3.10452588451741,
+    "median": 26.216014000000314,
+    "p95": 32.83271990000071,
+    "min": 24.808040000000346,
+    "max": 33.63720199999989,
+    "trials": [
+      25.09110999999848,
+      26.362016000000494,
+      24.808040000000346,
+      26.070012000000133,
+      26.922349999999824,
+      25.44523799999979,
+      25.584702000001016,
+      31.849464000001717,
+      33.63720199999989,
+      29.863564000002043
+    ]
+  },
+  "fps_mean": 36.2800342358715,
+  "parameters": 11139470,
+  "parameter_memory_mib": 42.49370574951172,
+  "model_file_size_mib": 21.465182304382324,
+  "allocated_after_load_mib": 85.57861328125,
+  "reserved_after_load_mib": 118.0,
+  "peak_allocated_total_mib": 107.64306640625,
+  "peak_allocated_incremental_mib": 22.064453125,
+  "peak_reserved_total_mib": 118.0,
+  "peak_reserved_incremental_mib": 0.0
+}

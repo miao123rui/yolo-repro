@@ -1,0 +1,13 @@
+model: yolov8s.pt
+data: data/VisDrone_subset_seq_v2/VisDrone_subset_seq_v2.yaml
+epochs: 100
+imgsz: 640
+batch: 4
+eval_batch: 4
+seed: 42
+device: 0
+workers: 0
+amp: true
+pretrained: true
+project: runs/train
+name: yolov8s_seq_seed42

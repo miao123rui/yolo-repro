@@ -1,0 +1,11 @@
+data: data/VisDrone_subset_seq_v2/VisDrone_subset_seq_v2.yaml
+batch: 1
+device: 0
+workers: 0
+imgsz: [512, 640, 768]
+output_dir: results/resolution_sweep
+runs:
+  - name: yolov8n
+    checkpoint: checkpoints/early/yolov8n_best.pt
+  - name: yolov8s
+    checkpoint: checkpoints/early/yolov8s_best.pt

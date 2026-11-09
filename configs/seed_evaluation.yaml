@@ -1,0 +1,24 @@
+data: data/VisDrone_subset_seq_v2/VisDrone_subset_seq_v2.yaml
+imgsz: 640
+eval_batch: 4
+device: 0
+workers: 0
+runs:
+  - model: yolov8n
+    seed: 42
+    checkpoint: runs/train/yolov8n_seq_seed42/weights/best.pt
+  - model: yolov8n
+    seed: 0
+    checkpoint: runs/train/yolov8n_seq_seed0/weights/best.pt
+  - model: yolov8n
+    seed: 1
+    checkpoint: runs/train/yolov8n_seq_seed1/weights/best.pt
+  - model: yolov8s
+    seed: 42
+    checkpoint: runs/train/yolov8s_seq_seed42/weights/best.pt
+  - model: yolov8s
+    seed: 0
+    checkpoint: runs/train/yolov8s_seq_seed0/weights/best.pt
+  - model: yolov8s
+    seed: 1
+    checkpoint: runs/train/yolov8s_seq_seed1/weights/best.pt

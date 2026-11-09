@@ -1,0 +1,3 @@
+﻿model,checkpoint_id,params,parameter_memory_MiB,file_size_MiB,latency_mean_ms,latency_std_ms,latency_median_ms,latency_p95_ms,fps_mean,allocated_after_load_MiB,peak_allocated_total_MiB,peak_allocated_incremental_MiB,peak_reserved_total_MiB,peak_reserved_incremental_MiB
+yolov8n,runs/visdrone_seq/yolov8n_seq/weights/best.pt,3012798,11.492912292480469,5.946505546569824,26.964794200000142,1.6534265762622653,26.90740499999947,29.051258400000847,37.0853933682162,23.21484375,35.40380859375,12.18896484375,50.0,0.0
+yolov8s,runs/visdrone_seq/yolov8s_seq/weights/best.pt,11139470,42.49370574951172,21.465182304382324,27.563369800000373,3.10452588451741,26.216014000000314,32.83271990000071,36.2800342358715,85.57861328125,107.64306640625,22.064453125,118.0,0.0

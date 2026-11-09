@@ -1,0 +1,10 @@
+name: yolov8n
+checkpoint: runs/train/yolov8n_seq_seed42/weights/best.pt
+images_dir: data/VisDrone_subset_seq_v2/images/val
+images: 50
+imgsz: 640
+warmup: 15
+trials: 10
+confidence: 0.25
+iou: 0.5
+output: results/benchmarks/yolov8n_benchmark.json

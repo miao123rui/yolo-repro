@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+title: Accuracy-Efficiency Trade-offs of Lightweight YOLO Models for UAV Small-Object Detection
+message: If you use this repository, please cite the project and the VisDrone dataset.
+type: software
+authors:
+  - family-names: Miao
+    given-names: Rui
+year: 2026
+license: MIT
+references:
+  - type: article
+    title: Detection and Tracking Meet Drones Challenge
+    authors:
+      - family-names: Zhu
+        given-names: Pengfei
+      - family-names: Wen
+        given-names: Longyin
+      - family-names: Du
+        given-names: Dawei
+      - family-names: Bian
+        given-names: Xiao
+      - family-names: Fan
+        given-names: Heng
+      - family-names: Hu
+        given-names: Qinghua
+      - family-names: Ling
+        given-names: Haibin
+    journal: IEEE Transactions on Pattern Analysis and Machine Intelligence
+    year: 2021
