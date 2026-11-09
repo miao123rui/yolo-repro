@@ -19,7 +19,7 @@ The repository connects every reported result to a data split, training configur
 ## Repository structure
 
 ```text
-baha-yolo-repro/
+yolo-repro/
 ├── README.md
 ├── requirements.txt
 ├── environment.yml
@@ -71,8 +71,8 @@ The reported environment used CUDA 12.1.
 ## Installation
 
 ```bash
-git clone https://github.com/miao123rui/baha-yolo-repro.git
-cd baha-yolo-repro
+git clone https://github.com/miao123rui/yolo-repro.git
+cd yolo-repro
 
 conda create -n baha-yolo python=3.11 -y
 conda activate baha-yolo
